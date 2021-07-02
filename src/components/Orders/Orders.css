@@ -1,0 +1,96 @@
+.orderContainer {
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    height: auto;
+    padding-bottom: 3rem;
+    position: relative;
+    
+}
+
+.orderImage {
+     height: 100vh;
+     overflow: hidden;
+     position: absolute;
+     z-index: 0;
+}
+
+.orderImage>img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    
+}
+
+.orderWrapper {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    margin: auto;
+    padding-top: 8rem;
+    position: absolute; 
+    z-index: 1;
+    left: 14%;
+    
+}
+
+.orderHeading {
+    margin-bottom: 3rem;
+    padding: 0 5rem;
+}
+
+.orderHeading > h2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+.orderBody {
+    margin: 0 auto 3rem auto;
+    padding: 0 5rem;
+}
+
+.orderBody > p {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 1025px) {
+    .orderWrapper {
+        width: 80%;
+        left: 0;
+        padding: 10rem 3rem 0 3rem;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .orderWrapper {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .orderWrapper {
+        padding: 3rem 1rem 0 1rem;
+    }
+    
+    .orderHeading {
+        padding: 0;
+    }
+
+    .orderBody {
+        padding: 0;
+    }
+}
+
+
+

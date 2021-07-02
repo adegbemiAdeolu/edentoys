@@ -1,0 +1,15 @@
+green #6CD2C4
+blue #65ECFE
+
+LIGHTER GREEN BG #A8EFEC
+
+
+blue #A5CFE3
+green #B6D5C1
+white #E2E2E2
+
+H1 = 2.2rem
+
+H2 = 1.1rem
+
+P = 1rem

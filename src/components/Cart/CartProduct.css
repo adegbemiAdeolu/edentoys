@@ -1,0 +1,129 @@
+.container {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.cartImage {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
+    
+}
+
+.bodyWrapper {
+    text-align: right;
+
+}
+
+.cartTitle {
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cartSubtitle {
+    font-family: 'Poppins';
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
+.bodyWrapper > p {
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.bodyWrapper > button {
+    background-color: #C5EDF4;
+    border-radius: 2px;
+    width: auto;
+    height: auto;
+    padding:  0.1rem 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    border-color: #C5EDF4;
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 400;
+
+}
+
+@media screen and (max-width: 541px) {
+    .container {
+        border-bottom: 2px solid #007F2E;
+    }
+    
+    .bodyWrapper > button {
+        font-size: 0.5rem;
+    }
+
+    .cartTitle {
+        font-size: 1.2rem;
+    }
+
+    .cartSubtitle {
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .cartImage {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .bodyWrapper {
+        text-align: center;
+
+    }
+
+    .cartTitle {
+        font-family: 'Poppins';
+        font-size: 1.8rem;
+        
+    }
+
+    .cartSubtitle {
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        
+    }
+
+    .bodyWrapper > p {
+        width: 100%;
+        font-family: 'Poppins';
+    }
+
+    .bodyWrapper > button {
+        border-radius: 2px;
+        width: auto;
+        height: auto;
+        padding:  0.1rem 0.5rem;
+        color: #000;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 0.6rem;
+        margin-left: 60%;
+    }
+}

@@ -1,0 +1,12 @@
+Green primary #126982
+Green background #E7F0F2
+White background for Ecommerce #FDFFFF
+White background for ecommerce 2 #FFFFFF
+Blue for cart button #7DD0ED
+Product Text Color for cart #D8DDE0
+Text Color Ecommerce #9EA2A5
+background color for categories #F5F7F9
+
+https://lovevery.com/
+https://www.kiwico.com/
+https://montikids.com/
