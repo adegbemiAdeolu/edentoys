@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.firebase
+.firebaserc
 
 # testing
 /coverage
@@ -17,6 +19,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/database.rules.json
+/firebase.json
+/firestore.indexes.json
+/firestore.rules/remoteconfig.template.json
+/storage.rules
 
 npm-debug.log*
 yarn-debug.log*
