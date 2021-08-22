@@ -27,6 +27,7 @@ export const SignUpContainer = styled.div`
 
 export const BackImageWrapper = styled.div`
     height: 100%;
+    width: 100%;
     position: absolute;
     overflow: hidden;
     z-index: -2;
