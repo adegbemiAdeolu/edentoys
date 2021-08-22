@@ -10,7 +10,7 @@ const Offers = () => {
             <OfferWrapper>
                 <OfferWrap>
                     <ImageWrapper>
-                        <Img src={image} />
+                        
                     </ImageWrapper>
                     <BodyWrapper>
                         <BodyContent>
