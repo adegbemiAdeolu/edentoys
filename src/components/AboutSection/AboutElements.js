@@ -66,6 +66,7 @@ export const HeadingWrapper = styled.div`
 
 export const HeadingImage = styled.div`
     height: 12.5rem;
+    width: 100%;
     position: absolute;
     overflow: hidden;
 ` 
